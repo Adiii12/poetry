@@ -1,0 +1,373 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.poetry_top {
+  width: 100%;
+}
+
+.poetry_top .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.poetry_top .row .menu {
+  width: 25%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  background-color: #e6e9e9;
+}
+
+.poetry_top .row .menu #backArrow {
+  cursor: pointer;
+  position: absolute;
+  top: 15px;
+  display: none;
+  right: 15px;
+}
+
+.poetry_top .row .menu h1 {
+  font-size: 25px;
+  padding: 25px 10px;
+  cursor: pointer;
+}
+
+.poetry_top .row .menu .tablinks {
+  background-color: inherit;
+  color: black;
+  padding: 22px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  font-size: 17px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.poetry_top .row .menu .tablinks:hover {
+  background-color: #ddd;
+}
+
+.poetry_top .row .menu .tablinks.active {
+  background-color: #ccc;
+}
+
+.poetry_top .row .menu .tablinks .part {
+  background-color: #12b3c2;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 8px;
+}
+
+.poetry_top .row .content {
+  width: 75%;
+  margin-left: 25%;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.poetry_top .row .content .header {
+  padding: 13px 2%;
+  background-color: #12b3c2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+}
+
+.poetry_top .row .content .header span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.poetry_top .row .content .header span img {
+  width: 30px;
+  cursor: pointer;
+  margin-right: 15px;
+  display: none;
+}
+
+.poetry_top .row .content .header h4 {
+  font-size: 25px;
+}
+
+.poetry_top .row .content #men {
+  padding: 15px 25px;
+}
+
+.poetry_top .row .content #men h1 {
+  font-size: 25px;
+  font-weight: 550;
+  line-height: 39px;
+}
+
+.poetry_top .row .content #men .header_next {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 15px 0px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.poetry_top .row .content #men .header_next h4 {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.poetry_top .row .content #men .header_next .next {
+  padding: 5px 20px;
+  background-color: transparent;
+  border: none;
+  border-radius: 3px;
+  background-color: #12b3c2;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.poetry_top .row .content #men .main p {
+  font-size: 17px;
+  line-height: 23px;
+  font-weight: 450;
+  margin-top: 25px;
+}
+
+.poetry_top .row .content #men .click_on_link p {
+  font-size: 17px;
+  line-height: 23px;
+  font-weight: 450;
+  margin-top: 25px;
+}
+
+.poetry_top .row .content #men #resp {
+  margin-top: 15px;
+}
+
+.poetry_top .row .content #men #resp .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 15px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.poetry_top .row .content #men #resp .row a {
+  padding: 10px;
+  margin-bottom: 14px;
+  width: 24%;
+  text-decoration: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 14px;
+  background-color: #12b3c2;
+}
+
+.poetry_top .row .content #men .submit_poem {
+  margin: 25px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.poetry_top .row .content #men .next {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.poetry_top .row .content #men .next a {
+  padding: 5px 20px;
+  background-color: transparent;
+  border: none;
+  border-radius: 3px;
+  background-color: #12b3c2;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.poetry_top .row .content #men .poetry_lounge {
+  padding: 15px 0px;
+  text-align: center;
+}
+
+.poetry_top .row .content #men .poetry_lounge a {
+  font-size: 25px;
+  color: red;
+}
+
+.poetry_top .row .content #ladies {
+  padding: 15px 25px;
+}
+
+.poetry_top .row .content #ladies h1 {
+  font-size: 25px;
+  font-weight: 550;
+  line-height: 39px;
+}
+
+.poetry_top .row .content #ladies .header_next {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 15px 0px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.poetry_top .row .content #ladies .header_next h4 {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.poetry_top .row .content #ladies .header_next .next {
+  padding: 5px 20px;
+  background-color: transparent;
+  border: none;
+  border-radius: 3px;
+  background-color: #12b3c2;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.poetry_top .row .content #ladies .main p {
+  font-size: 17px;
+  line-height: 23px;
+  font-weight: 450;
+  margin-top: 25px;
+}
+
+.poetry_top .row .content #ladies .click_on_link p {
+  font-size: 17px;
+  line-height: 23px;
+  font-weight: 450;
+  margin-top: 25px;
+}
+
+.poetry_top .row .content #ladies #ladies_inner {
+  margin-top: 25px;
+}
+
+.poetry_top .row .content #ladies #ladies_inner .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 15px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.poetry_top .row .content #ladies #ladies_inner .row a {
+  padding: 10px;
+  margin-bottom: 14px;
+  width: 24%;
+  text-decoration: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 14px;
+  background-color: #12b3c2;
+}
+
+.poetry_top .row .content .copyRight {
+  text-align: center;
+  padding: 25px 0px;
+  background-color: #12b3c2;
+  color: #fff;
+}
+
+@media only screen and (max-width: 992px) {
+  .poetry_top .row .menu {
+    margin-left: -70%;
+    z-index: 10;
+  }
+  .poetry_top .row .menu #backArrow {
+    display: block;
+  }
+  .poetry_top .row .content {
+    margin-left: 0;
+    width: 100%;
+  }
+  .poetry_top .row .content .header span img {
+    display: block;
+  }
+  .poetry_top .row .content #men #resp .row a {
+    width: 48%;
+  }
+  .poetry_top .row .content #ladies #ladies_inner .row a {
+    width: 48%;
+  }
+}
+/*# sourceMappingURL=app.css.map */
